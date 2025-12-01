@@ -1,0 +1,5 @@
+Add Features Later
+* Cart functionality
+* Checkout form
+* Search/filter  
+* Login/signup (optional)
