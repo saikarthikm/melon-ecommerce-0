@@ -5,7 +5,7 @@ fetch("products.json")
     data.forEach((item) => {
       const div = document.createElement("div");
       div.className = "product";
-      div.innerHTML = `<h3>item.name</h3><p>₹{item.price}</p><button>Add to Cart</button>`;
+      div.innerHTML = `<h3>${item.name}</h3><p>₹${item.price}</p><button>Add to Cart</button>`;
       list.appendChild(div);
     });
   });
